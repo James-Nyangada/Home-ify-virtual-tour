@@ -55,7 +55,7 @@ const Hero = () => {
                   loop
                   muted
                 >
-                     <source src='/public/assets/video/3D render modern house _ Living room and kitchen_ Luxury style in virtual tour (FULL HD).mp4' type='video/mp4'/> 
+                     <source src='/public/assets/video/3d.mp4' type='video/mp4'/> 
                 </video>
 
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
