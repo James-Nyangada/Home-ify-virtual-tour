@@ -68,7 +68,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="mailto:admin@home-ify.co.ke"
+          href="mailto:kahiri@home-ify.co.ke"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           Contact Us
