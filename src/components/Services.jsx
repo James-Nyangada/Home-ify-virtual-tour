@@ -25,27 +25,19 @@ const Services = () => {
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
-              <video
-                  playsInline ={true}
-                  preload='auto'
-                  autoPlay
-                  loop
-                  muted
-                >
-                    <source src='/src/assets/video/3D render modern house _ Living room and kitchen_ Luxury style in virtual tour (FULL HD).mp4' type='video/mp4'/> 
-                </video>
+              <img src="/src/assets/freepik__upload__98418.jpeg"/>
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto text-black">
+            <div className="relative z-1 max-w-[17rem] ml-auto text-black ">
               <h4 className="h4 mb-4">3D Property Visualizations</h4>
-              <p className="body-2 mb-[3rem] text-n-3 text-black">
-                Bring unbuilt concepts to life with stunning 3D visualizations. Using advanced tools like Blender, we create hyper-realistic 3D models and videos of properties, allowing clients to see what their future space could look like.
+              <p className="body-2 mb-[3rem]  text-black font-bold">
+                Bring unbuilt concepts to life with stunning 3D visualizations. Using advanced, we create hyper-realistic 3D models and videos of properties, allowing clients to see what their future space could look like.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
-                    className="flex items-start py-4 border-t border-n-6"
+                    className="flex items-start py-4 border-t font-bold border-n-6"
                   >
                     <img width={24} height={24} src={check} />
                     <p className="ml-4">{item}</p>

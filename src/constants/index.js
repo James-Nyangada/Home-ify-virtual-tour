@@ -79,9 +79,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Ideal for architects, developers, and interior designers.",
-  "Customizable models to match your vision and specifications.",
-  "Animated walkthroughs and flyovers of concept properties.",
+  "Ideal for architects.",
+  "Customizable models.",
+  "Animated walkthroughs.",
 ];
 
 export const brainwaveServicesIcons = [
