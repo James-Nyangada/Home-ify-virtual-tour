@@ -29,7 +29,7 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:kahiri@home-ify.co.ke"}
+            href={item.price ? "mailto:kahiri@home-ify.co.ke" : "mailto:kahiri@home-ify.co.ke"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
