@@ -28,9 +28,9 @@ const Services = () => {
               <img src="/assets/vrImage.jpeg"/>
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto text-black ">
+            <div className="relative z-1 max-w-[17rem] ml-auto text-black text-col">
               <h4 className="h4 mb-4">3D Property Visualizations</h4>
-              <p className="body-2 mb-[3rem]  text-black font-bold">
+              <p className="body-2 mb-[3rem] text-black text-col font-bold">
                 Bring unbuilt concepts to life with stunning 3D visualizations. Using advanced, we create hyper-realistic 3D models and videos of properties, allowing clients to see what their future space could look like.
               </p>
               <ul className="body-2">

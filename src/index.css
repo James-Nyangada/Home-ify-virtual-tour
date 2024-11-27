@@ -16,7 +16,11 @@
 * {
   scroll-behavior: smooth
 }
-
+@media (max-width: 640px) {
+  .text-col {
+    color: white;
+  }
+}
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
