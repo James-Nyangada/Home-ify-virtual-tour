@@ -16,6 +16,11 @@
 * {
   scroll-behavior: smooth
 }
+.video-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire area */
+}
 @media (max-width: 640px) {
   .text-col {
     color: white;

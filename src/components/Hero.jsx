@@ -54,6 +54,7 @@ const Hero = () => {
                   autoPlay
                   loop
                   muted
+                  className="video-full"
                 >
                      <source src='/assets/vrVideo.mp4' type='video/mp4'/> 
                 </video>
