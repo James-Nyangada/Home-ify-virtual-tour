@@ -115,7 +115,7 @@ const Features = () => (
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Ffeature-1.mp4?alt=media&token=839bb938-927a-4536-86ff-63ee3fbcdc5a"
           title={
             <>
               Immersiv<b>e</b> 3D <br/> virtual tours
@@ -129,7 +129,7 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Ffeature-2.mp4?alt=media&token=4619ab04-f479-40f3-b448-009cfdf4a2b1"
             title={
               <p className="text-black">
                 Stun<b>n</b>ing <br/> 3D renders
@@ -142,7 +142,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Ffeature-3.mp4?alt=media&token=ba16f05c-6d57-44db-ac0b-d08ee706c77b"
             title={
               <>
                 C<b>u</b>stom Media <br/> Solutions
@@ -155,7 +155,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="videos/feature-4.mp4"
+            src="https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Ffeature-4.mp4?alt=media&token=be5e8eb3-d6b1-4281-afe7-b3fa4c22be55"
             title={
               <>
                 ad<b>v</b>anced Technology
@@ -178,7 +178,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Ffeature-5.mp4?alt=media&token=9adfc4d7-c76d-4693-a014-865a8e42daa0"
             loop
             muted
             autoPlay

@@ -81,7 +81,14 @@ const HeroTwo = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
+  const videoUrls = {
+    1: "https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Fhero-1.mp4?alt=media&token=969e8369-ce00-4476-a0f4-358715a6b83e",
+    2: "https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Fhero-2.mp4?alt=media&token=a3c342c2-a8f4-46ca-b8f2-be50c25679e5",
+    3: "https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Fhero-3.mp4?alt=media&token=cd073f2d-ad66-4844-93fc-2dcf91c6c8e2",
+    4: "https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2Fhero-4.mp4?alt=media&token=62143fca-342b-4063-9fed-0d13b019927e"
+  };
+  
+  const getVideoSrc = (index) => videoUrls[index];
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">

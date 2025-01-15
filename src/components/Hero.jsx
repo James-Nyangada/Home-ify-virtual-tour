@@ -50,13 +50,13 @@ const Hero = () => {
               <div className="h-full w-full flex-center aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <video
                   playsInline ={true}
-                  preload='auto'
+                  preload='metadata'
                   autoPlay
                   loop
                   muted
                   className="video-full"
                 >
-                     <source src='/assets/vrVideo.mp4' type='video/mp4'/> 
+                     <source src='https://firebasestorage.googleapis.com/v0/b/homeify-auth.appspot.com/o/video%2FvrVideo.mp4?alt=media&token=2d59d7c2-2eb7-4d65-9a8a-cab1b976ad36' type='video/mp4'/> 
                 </video>
 
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
