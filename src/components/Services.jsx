@@ -28,16 +28,16 @@ const Services = () => {
               <img src="/assets/vrImage.jpeg"/>
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto text-black text-col">
-              <h4 className="h4 mb-4">3D Property Visualizations</h4>
+            <div className="relative z-1 max-w-[17rem] ml-auto text-black text-col font-bold">
+              <h4 className="h4 mb-4">Immersive Property Visuals</h4>
               <p className="body-2 mb-[3rem] text-black text-col font-bold">
-                Bring unbuilt concepts to life with stunning 3D visualizations. Using advanced, we create hyper-realistic 3D models and videos of properties, allowing clients to see what their future space could look like.
+                Bring unbuilt concepts to life with stunning 3D visualizations. Using advanced tech, we create hyper-realistic 3D models and videos of properties, allowing clients to see what their future space could look like.
               </p>
-              <ul className="body-2">
+              <ul className="body-3">
                 {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
-                    className="flex items-start py-4 border-t font-bold border-n-6"
+                    className="flex items-start py-1 border-t font-bold border-n-6"
                   >
                     <img width={24} height={24} src={check} />
                     <p className="ml-4">{item}</p>

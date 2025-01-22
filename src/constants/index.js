@@ -79,9 +79,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Ideal for architects.",
-  "Customizable models.",
-  "Animated walkthroughs.",
+  "WOW your clients and stakeholders.",
+  "Ideal for you, real estate agents, architects, developers.",
+  "Get immersed in a property at the comfort of your house or office.",
 ];
 
 export const brainwaveServicesIcons = [
@@ -96,7 +96,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Understanding Your Needs",
-    text: "Every project begins with a conversation. We listen carefully to your goals, whether it's creating an engaging virtual tour, capturing stunning photos, or designing a 3D concept of your property.",
+    text: "Every project begins with a conversation. We listen carefully to your goals, whether it's creating an engaging virtual tour, capturing stunning photos and videos, or designing a 3D concept of your property.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
@@ -105,7 +105,7 @@ export const roadmap = [
   {
     id: "1",
     title: "Leveraging Advanced Tools and Expertise",
-    text: "We use the latest technology and techniques to ensure exceptional quality.",
+    text: "We use the latest VR/AR and virtual tour creation technology and techniques to ensure exceptional quality.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
@@ -129,21 +129,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "Step into your future home without leaving your current one. Our state-of-the-art virtual tours provide 360-degree walkthroughs, allowing you to explore every corner of the property as if you were there in person";
+  "Step into your future property without leaving your current one. Our state-of-the-art virtual tours provide 360-degree walkthroughs, allowing you to explore every corner of the property as if you were there in person";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Find Your Ideal Property",
-    text: "Our intuitive search platform makes finding your dream property a breeze",
+    title: "Connect with us",
+    text: "Help us understand your needs. Whether you want stunning visuals for your stakeholder's, or you want to capture the essence of your space for your buyer clients, we will listen and deliver!",
   },
   {
     id: "1",
-    title: "Take a Virtual Tour from Anywhere",
+    title: "Now we get to work",
+    text: "We show up on site with our state-of-the-art equipment and we grind, capturing your space in exquisite detail."
   },
   {
     id: "2",
-    title: "Connect with the Property Manager for Details",
+    title: "POST and Deliverables",
+    text: "After our team carefully edits and structures your project according to your taste and liking, we deliver the final result to you and drink some celebratory espresso shots together!"
   },
 ];
 

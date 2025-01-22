@@ -35,13 +35,13 @@ const About = () => {
         </p>
 
         <AnimatedTitle
-          title="The Pi<b>o</b>nners In cutting-edge<br />Virtual <b>E</b>xperience"
+          title="<b>The <b>Pi<b>o</b>neers <b>In<br /> <b>Immersive <b>Property <b>Visual <b>Experiences</b>"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p className="text-gray-500">We bring spaces to life like never before.</p>
-          <p className="text-gray-500">
+          <p className="text-gray-500 font-bold">We bring spaces to life like never before.</p>
+          <p className="text-gray-500 font-bold">
             From real estate showcases to architectural marvels, our services bridge the gap between vision and reality.
           </p>
         </div>
